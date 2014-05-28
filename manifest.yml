@@ -1,0 +1,9 @@
+---
+applications:
+- name: ipy-demo
+  memory: 512M
+  instances: 1
+  host: ipy-demo
+  domain: ng.bluemix.net
+  path: .
+  buildpack: https://github.com/joshuamckenty/heroku-buildpack-python
