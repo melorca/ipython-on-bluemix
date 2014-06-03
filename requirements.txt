@@ -1,4 +1,4 @@
-ipython[all]
+ipython[notebook]
 numpy
 pandas
 matplotlib
