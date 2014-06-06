@@ -14,9 +14,9 @@ cf login
 # push the app, but don't start it
 cf push --no-start
 # set a password in the app environment
-cf set-env ipy PASSWORD $( echo -n "Password: " && read -s PASSWORD && echo $PASSWORD )
+cf set-env ipython PASSWORD $( echo -n "Password: " && read -s PASSWORD && echo $PASSWORD )
 # build, deploy, and start the app
-cf start ipy-dev
+cf start ipython
 ```
 
 When the buildpack finishes running, note the route assigned to your instance and visit it in your browser via https://your-instance.nb.bluemix.net. Enter your password when prompted.
@@ -32,5 +32,4 @@ cf start
 
 # License
 
-Copyright (c) 2014 IBM Corporation under the MIT license
-See License.txt for details
+Copyright (c) 2014 IBM Corporation under the MIT license. See License.txt for details.
