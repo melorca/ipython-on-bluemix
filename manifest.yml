@@ -4,6 +4,6 @@ applications:
   memory: 1G
   instances: 1
   host: ipython-${random-word}
-  domain: ng.bluemix.net
+  domain: mybluemix.net
   path: .
   buildpack: https://github.com/joshuamckenty/heroku-buildpack-python
