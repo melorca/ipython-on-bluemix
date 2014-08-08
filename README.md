@@ -1,6 +1,6 @@
 # IPython on BlueMix
 
-Deploys a throw-away data analysis environment on BlueMix including IPython Notebook, numpy, pandas, and matplotlib. See the quickstart below or (TODO: dW link) for details.
+Deploys a throw-away data analysis environment on BlueMix including IPython Notebook, numpy, pandas, and matplotlib. See the quickstart below or [the developerWorks article](http://www.ibm.com/developerworks/cloud/library/cl-ipython-app/index.html) for details.
 
 # Quickstart
 
