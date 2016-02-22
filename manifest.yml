@@ -6,4 +6,4 @@ applications:
   host: ipython-${random-word}
   domain: mybluemix.net
   path: .
-  buildpack: https://github.com/joshuamckenty/heroku-buildpack-python
+  buildpack: https://github.com/cloudfoundry/python-buildpack.git
